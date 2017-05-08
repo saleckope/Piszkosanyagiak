@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="8dip"
+    android:paddingLeft="30dip"
+    android:paddingRight="50dip"
+    android:paddingTop="8dip">
+
+    <ImageView
+        android:id="@+id/MoneyItemIcon"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_marginLeft="8dip"
+        android:padding="8dip"
+        android:layout_gravity="center_vertical"
+        tools:src="@drawable/income" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:layout_weight="1"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/MoneyItemAmountTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            tools:text="2000" />
+
+        <TextView
+            android:id="@+id/MoneyItemCategoryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="Food" />
+
+        <TextView
+            android:id="@+id/MoneyItemDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            tools:text="2016.11.15." />
+
+        <TextView
+            android:id="@+id/MoneyItemNoteTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            tools:text="This is my favorite..." />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/MoneyItemRemoveButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_delete_grey600_48dp" />
+</LinearLayout>

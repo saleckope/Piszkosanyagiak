@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Piszkos anyagiak</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="new_money_item">New</string>
+    <string name="type">Type</string>
+    <string name="amount">Amount</string>
+    <string name="ft">Ft</string>
+    <string name="category">Category</string>
+    <string name="date">Date</string>
+    <string name="note">Note</string>
+    <string name="remove_all">Remove All</string>
+    <string name="money">You have</string>
+    <string name="statistics">Statistics</string>
+    <string name="details">Details</string>
+    <string name="garphics">Graphics</string>
+    <string-array name="category_items">
+        <item>food</item>
+        <item>cosmetics</item>
+        <item>car</item>
+        <item>coffee</item>
+        <item>party</item>
+        <item>family</item>
+        <item>travel</item>
+        <item>sport</item>
+        <item>electronics</item>
+        <item>clothes</item>
+        <item>shopping</item>
+        <item>wellness</item>
+        <item>present</item>
+        <item>culture</item>
+        <item>bills</item>
+    </string-array>
+    <string-array name="type_items">
+        <item>Income</item>
+        <item>Outlay</item>
+    </string-array>
+
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to SettingsActivity -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="yourmoney">Your money in year:</string>
+    <string name="categories">Outlay categories</string>
+    <string name="month">month:</string>
+    <string name="show">Show</string>
+    <string name="budget">Budget in a month</string>
+    <string name="set">Set</string>
+    <string name="settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
